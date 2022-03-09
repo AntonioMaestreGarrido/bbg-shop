@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+nav > * {
+  margin: 10px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  gap: 0;
+  padding: 0;
+}
+#header {
+  width: 100%;
+  height: 10%;
+  top: 0;
+}
+#middle {
+  max-height: 80vh;
+  background-color: hotpink;
+
+  border: solid 3px black;
+  display: flex;
+}
+#side {
+  background-color: green;
+  width: 10%;
+
+  display: flex;
+  flex-direction: column;
+
+  border: solid 3px black;
+}
+#middle {
+  display: flex;
+}
+#products {
+  margin: 140px;
+  background-color: red;
+  width: 80%;
+  height: 70%;
+  display: flex;
+}
+#footer {
+  background-color: grey;
+  position: absolute;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+
+  bottom: 0;
+}
+
+.articulo {
+  border: solid black 3px;
+  height: 200px;
+}
+#productos {
+  position: relative;
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+
+  overflow: scroll;
+  align-content: flex-start;
+}
+.item {
+  border: solid 2px green;
+  width: 200px;
+  height: 200px;
+  padding: auto;
+}
+.item img {
+  margin: auto;
+  width: 120px;
+}
+.item img:hover {
+  border: solid black 4px;
+}
+#gameProfile {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  background-color: red;
+  padding: 40px;
+}
+#landing {
+  margin: 200px;
+}
+#about {
+  margin: 200px;
+}
